@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "firstMsg",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newMsg",
+						"type": "string"
+					}
+				],
+				"name": "setMsg",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Md. Maruf Ahmed Robin <maruf.robin@northsouth.edu>",
+			"details": "Explain to a developer any extra details",
+			"kind": "dev",
+			"methods": {},
+			"title": "Cntract for sending a Massage.",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Explain to an end user what this does",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Inbox.sol": "Inbox"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Inbox.sol": {
+			"keccak256": "0xe1abb9b3e8d666a2871bc12303fda5be23d0406d45b6fbc6a6be60ebb9d05adc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1d6ab16a1f73da8eec64c0ff058cb5412efaa9f4a10ea58a172cf0ca72740f01",
+				"dweb:/ipfs/QmS6PqXcHpyt9RpYDWyyARPHpM8nxS8hnWcQ8oR18CxrVi"
+			]
+		}
+	},
+	"version": 1
+}
